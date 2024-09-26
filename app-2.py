@@ -1,6 +1,8 @@
 import streamlit as st
 import pandas as pd
 import pickle
+import sklearn
+
 
 # Load the trained Lasso model
 filename_lasso = 'lasso_regression_model.sav'
